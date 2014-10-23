@@ -61,3 +61,4 @@
 17:24 <        sysd>| [sysd] matlinuxer2 pushed 1 new commit to branches/mat: http://git.io/x4K7-Q
 17:24 <        sysd>| sysd/branches/mat 4420bcb matlinuxer2: Merge pull request #12 from hacking-thursday/gitignore...
 17:28  > matlinuxer2 yan: 那個 battary 的模組, 有hardcode BAT0 的部份。之後可以再把它參數化~ ^^
+17:32 |@yan > matlinuxer2: ok, 之後會像 ifconfig 一樣列出全部
