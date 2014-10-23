@@ -46,3 +46,5 @@
 14:00 |-INFO > wenchien [~freenode@123-204-41-50.static.seed.net.tw] has quit [Ping timeout: 260 seconds]
 14:03 | yan > matlinuxer2: 我來調整一下
 14:08 | yan > matlinuxer2: OK
+15:06 <        sysd>| [sysd] matlinuxer2 pushed 1 new commit to branches/mat: http://git.io/4vm46g
+15:06 <        sysd>| sysd/branches/mat b4e32fd Chun-Yu Lee (Mat): 新增 /sys/bus/ 列舉
