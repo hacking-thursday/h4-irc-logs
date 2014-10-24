@@ -3,3 +3,6 @@
 00:21 <  h4-scripts>| [h4-scripts] a0726h77 pushed 1 new commit to develop: http://git.io/ZNelVg
 00:21 <  h4-scripts>| h4-scripts/develop fac1030 yan: watch file and push to github (irclogbot)
 00:21 |-INFO > mode/#h4 [+o matlinuxer2] by yan
+00:22 |-INFO > mode/#h4 [+o chihchun] by yan
+00:23 |@matlinuxer2 > yan++
+00:26 |@yan > irc log bot 目前爲每 15 個訊息上傳一次，或是每 15 分鐘內有變動上傳一次 
