@@ -12,3 +12,6 @@
 00:28 <  h4-scripts>| h4-scripts/develop 8cc5a22 Chun-Yu Lee (Mat): 刪除沒用到的 send_gmail() 函式
 00:28 <  h4-scripts>| h4-scripts/develop bade180 Chun-Yu Lee (Mat): 削減函式庫之 dependencies
 00:28 <  h4-scripts>| h4-scripts/develop 244c55b Chun-Yu Lee (Mat): simplify h4cli
+00:30 |@matlinuxer2 > yan: 請教一下, 那個 commit => IRC 的通知機制你是用什麼工具設定的啊?
+00:32 |-INFO > chihchun is now known as chihchun_afk
+00:34 |@yan > matlinuxer2: github repo 設定裏 -> Webhooks & Services -> IRC
