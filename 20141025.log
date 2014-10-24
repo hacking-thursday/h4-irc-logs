@@ -6,3 +6,9 @@
 00:22 |-INFO > mode/#h4 [+o chihchun] by yan
 00:23 |@matlinuxer2 > yan++
 00:26 |@yan > irc log bot 目前爲每 15 個訊息上傳一次，或是每 15 分鐘內有變動上傳一次 
+00:27 <@matlinuxer2>| cool
+00:28 <@matlinuxer2>| BTW, 我剛剛發現漏了之前一些 commit 還沒 push XD
+00:28 <  h4-scripts>| [h4-scripts] matlinuxer2 pushed 6 new commits to develop: http://git.io/udz6yA
+00:28 <  h4-scripts>| h4-scripts/develop 8cc5a22 Chun-Yu Lee (Mat): 刪除沒用到的 send_gmail() 函式
+00:28 <  h4-scripts>| h4-scripts/develop bade180 Chun-Yu Lee (Mat): 削減函式庫之 dependencies
+00:28 <  h4-scripts>| h4-scripts/develop 244c55b Chun-Yu Lee (Mat): simplify h4cli
