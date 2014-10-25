@@ -35,3 +35,7 @@
 11:04 <  h4-scripts>| h4-scripts/develop 9f46c8a yan: dynamic choose monitor dir
 11:04 <  h4-scripts>| h4-scripts/develop 10ce08b yan: display usage
 11:04 <  h4-scripts>| h4-scripts/develop a869359 yan: Merge branch 'inotify2git' into develop
+11:26 <  h4-scripts>| [h4-scripts] a0726h77 pushed 3 new commits to develop: http://git.io/7emg8g
+11:26 <  h4-scripts>| h4-scripts/develop a27cefa yan: add dryrun option
+11:26 <  h4-scripts>| h4-scripts/develop 8a7bb26 yan: change default monitor time
+11:26 <  h4-scripts>| h4-scripts/develop 82ab734 yan: Merge branch 'inotify2git' into develop
