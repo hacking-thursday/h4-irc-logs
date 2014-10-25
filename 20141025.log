@@ -31,3 +31,7 @@
 10:50 <  h4-scripts>| h4-scripts/develop ebce64e yan: arguments parser
 10:50 <  h4-scripts>| h4-scripts/develop 3dcb310 yan: fix: pass argv
 10:50 <  h4-scripts>| h4-scripts/develop 65937f4 yan: fix: move subprocess kill handler
+11:04 <  h4-scripts>| [h4-scripts] a0726h77 pushed 3 new commits to develop: https://github.com/hacking-thursday/h4-scripts/compare/5dbbe6155eb6...a8693594d101
+11:04 <  h4-scripts>| h4-scripts/develop 9f46c8a yan: dynamic choose monitor dir
+11:04 <  h4-scripts>| h4-scripts/develop 10ce08b yan: display usage
+11:04 <  h4-scripts>| h4-scripts/develop a869359 yan: Merge branch 'inotify2git' into develop
