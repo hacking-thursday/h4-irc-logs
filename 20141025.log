@@ -45,3 +45,6 @@
 18:09 <  h4-scripts>| [h4-scripts] a0726h77 pushed 2 new commits to develop: http://git.io/L242ww
 18:09 <  h4-scripts>| h4-scripts/develop 9273073 yan: use function callback
 18:09 <  h4-scripts>| h4-scripts/develop 04d59b4 yan: Merge branch 'inotify2git' into develop
+21:58 <  h4-scripts>| [h4-scripts] a0726h77 pushed 2 new commits to develop: http://git.io/jjonBw
+21:58 <  h4-scripts>| h4-scripts/develop fbe1ab1 yan: fix: check callback function
+21:58 <  h4-scripts>| h4-scripts/develop 95480e9 yan: Merge branch 'inotify2git' into develop
