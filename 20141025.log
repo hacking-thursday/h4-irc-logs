@@ -39,3 +39,6 @@
 11:26 <  h4-scripts>| h4-scripts/develop a27cefa yan: add dryrun option
 11:26 <  h4-scripts>| h4-scripts/develop 8a7bb26 yan: change default monitor time
 11:26 <  h4-scripts>| h4-scripts/develop 82ab734 yan: Merge branch 'inotify2git' into develop
+14:36 <  h4-scripts>| [h4-scripts] a0726h77 pushed 2 new commits to develop: http://git.io/xLtQPg
+14:36 <  h4-scripts>| h4-scripts/develop 80ae1d8 yan: fix: kill subprocess
+14:36 <  h4-scripts>| h4-scripts/develop 0ff07bb yan: Merge branch 'inotify2git' into develop
