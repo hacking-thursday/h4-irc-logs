@@ -27,3 +27,7 @@
 05:30 |-INFO > Irssi: Join to #h4 was synced in 48 secs
 09:49 < matlinuxer2>| 早安~
 10:22  > yan hi~
+10:50 <  h4-scripts>| [h4-scripts] a0726h77 pushed 5 new commits to develop: http://git.io/2F3Iaw
+10:50 <  h4-scripts>| h4-scripts/develop ebce64e yan: arguments parser
+10:50 <  h4-scripts>| h4-scripts/develop 3dcb310 yan: fix: pass argv
+10:50 <  h4-scripts>| h4-scripts/develop 65937f4 yan: fix: move subprocess kill handler
