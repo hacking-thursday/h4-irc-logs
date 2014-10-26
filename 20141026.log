@@ -4,3 +4,10 @@
 08:49 |-INFO > Irssi: #h4: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
 08:50 |-INFO > Irssi: Join to #h4 was synced in 47 secs
 09:44 < matlinuxer2>| 早安~
+11:10  > AndroUser hello
+11:11 < matlinuxer2>| AndroUser: hi
+11:12 | matlinuxer2 > yan: 建議 irc-log 可以去掉 <INFO> 類的訊息~
+11:13 < matlinuxer2>| BTW, 沒想到 shell script 也可以有 callback function 的用法, yan++
+11:18 <   AndroUser>| 好的，等等改下設定
+11:19 <   AndroUser>| 因為 inotify 可以偵測不同事件
+11:19 <   AndroUser>| 所以改用這個做法
