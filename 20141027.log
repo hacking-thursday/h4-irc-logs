@@ -21,3 +21,15 @@
 11:17 <@yan> 我們就沒有權限執行  /msg ChanServ ACCESS #h4 ADD user 10
 11:20 <@matlinuxer2> yan: yes
 12:22 <@hychen> 不曉得誒
+22:23 <@matlinuxer2> 請教一下
+22:24 <@hychen> ?
+22:26 <@matlinuxer2> 有沒有什麼工具可以trace 某runtime process 所開的resource列表?  (Socket/file/...)
+22:28 <@hychen> losf
+22:28 <@hychen> lsof
+22:29 < lcamel> or strace
+22:31 <@matlinuxer2> 謝謝！ 我剛用 lsof 看到一個異狀 => http://imgur.com/NZ5YOOl
+22:32 <@matlinuxer2> lcamel: strace 好像要執行時就下指令. 不過我是想 trace 正在執行的 apache process.
+22:33  * matlinuxer2 症狀是 cpu 飆到 100% 一整天, 但不知道它在執行什麼東西? 或連往何處...
+22:34 < lcamel> sudo -u <uid> strace -p <pid>
+22:37 <@matlinuxer2> lcamel: 太好了，我需要這個, thanks~
+22:40 < lcamel> matlinuxer2: ^^
