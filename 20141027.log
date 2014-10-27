@@ -19,3 +19,4 @@
 11:13 <@matlinuxer2> 設定權限的部份，好像要找 channel fonder 拿, 註: "/msg chanserv access list #h4" 可以列出管理員列表
 11:16 <@yan> matlinuxer2: (y)
 11:17 <@yan> 我們就沒有權限執行  /msg ChanServ ACCESS #h4 ADD user 10
+11:20 <@matlinuxer2> yan: yes
