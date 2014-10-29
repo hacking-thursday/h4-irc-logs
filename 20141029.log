@@ -1,2 +1,17 @@
 --- Log opened 三 10月 29 00:00:19 2014
 22:35 < matlinuxer2_> 晚上好~
+22:56 < yan> :)
+22:56 < yan> matlinuxer2_:  請問一下 sysd， df 模組的部分有人做了嗎？
+22:57 < matlinuxer2_> yan: mods/ 下沒有，應該就還沒有...
+22:57 < matlinuxer2_> yan: 這個我之前有 survey 到
+22:58 < matlinuxer2_> 需要用到 statfs 這個 system call
+22:58 < yan> matlinuxer2_: 嗯嗯
+22:58 < yan> `df` 是用 /etc/mtab 再加上 statfs 這個 system call 作出來的. (筆記)
+22:58 < yan> 有筆記到
+22:58 < matlinuxer2_> 你正在研究這個..?
+22:59 < yan> 如果還沒做可能要找時間來動工
+22:59 < yan> df 也滿常用的
+23:01 < matlinuxer2_> 嗯嗯~
+23:01 < yan> 等開始做的時候再開 branch
+23:02 < matlinuxer2_> ok
+23:02 < matlinuxer2_> 不過我一直覺得奇怪
