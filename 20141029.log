@@ -37,3 +37,6 @@
 23:36 < matlinuxer2> 所以就綁定了 /etc/mtab , 並依賴 mount 指定去 write and sync data
 23:38 < matlinuxer2> 也就是說，/etc/mtab 的存在是因為 /bin/mount, 如果 sysd 跳過 /bin/mount 直接拿 /proc/mounts , /etc/mtab 就不需要了.
 23:43 < yan> mat 的 /proc/mounts 和 /etc/mtab 資訊一樣嗎？有的 /proc/mounts 好像沒有顯示詳細的 mount option
+23:53 < yan> matlinuxer2: 我先 zzZ，明天有進展再繼續討論
+23:53 < matlinuxer2> ok
+--- Log closed 四 10月 30 00:00:20 2014
