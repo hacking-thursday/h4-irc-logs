@@ -23,3 +23,17 @@
 23:10 < matlinuxer2_> yan: 你那邊是 symbolic link?
 23:14 < yan> 嗯嗯
 23:15 < yan> mount -n, --no-mtab    Mount  without  writing in /etc/mtab.  This is necessary for example when /etc is on a read-only filesystem
+23:22 < matlinuxer2> 剛剛作了一個實驗
+23:23 < matlinuxer2> mv /etc/mtab /etc/mtab.bak ; mount    => empty
+23:24 < yan> mount 是讀寫 mtab 沒錯
+23:24 < yan> 如果 mtab 沒有 link 到 /proc/mounts
+23:25 < yan> /proc/mounts 裏更新的話會看不到
+23:25 < yan> 使用 docker run 一個新的 container 時
+23:25 < yan> /proc/mounts 會多一筆資料
+23:33 < matlinuxer2> 了解
+23:33 < matlinuxer2> 我剛剛看了一下，好像 init script 會自動偵測並建立 /etc/mtab 這個檔案
+23:34 < matlinuxer2> 我猜測
+23:35 < matlinuxer2> 可能是 init script 的過程中，很多 script 都用到 mount 的指令，而 mount 指令又指定 /etc/mtab 這個檔案 ( 基於相容性, glibc 用到的 unix 那麼多，也不可能說改就改... )
+23:36 < matlinuxer2> 所以就綁定了 /etc/mtab , 並依賴 mount 指定去 write and sync data
+23:38 < matlinuxer2> 也就是說，/etc/mtab 的存在是因為 /bin/mount, 如果 sysd 跳過 /bin/mount 直接拿 /proc/mounts , /etc/mtab 就不需要了.
+23:43 < yan> mat 的 /proc/mounts 和 /etc/mtab 資訊一樣嗎？有的 /proc/mounts 好像沒有顯示詳細的 mount option
