@@ -4,3 +4,5 @@
 10:58 < matlinuxer2> https://www.irccloud.com/pastebin/RZGaYkpD
 11:00 < matlinuxer2> yan: 剛寫了一個statfs的sample. code
 20:38 < matlinuxer21> matlinuxer21 :  test
+21:22 < sysd> [sysd] matlinuxer2 pushed 1 new commit to branches/mat: http://git.io/QclKJw
+21:22 < sysd> sysd/branches/mat 370fd3a Chun-Yu Lee (Mat): 修正 battery 模組的 runtime error
