@@ -13,3 +13,5 @@
 09:58 < matlinuxer2> yan__: 那一天作的實驗，確實是一樣的
 10:00 < matlinuxer2> yan__: 哈，搞不好會遇到 container A 開 top , 發現 top 的 cpu 超高，但其實都是 container B 的 process 在用的這種狀r況~~
 10:00 < yan__> 嗯呀
+12:48 < tsaikd3> docker resource 管理有另一套辦法
+12:49 < tsaikd3> 我到CLBC了
