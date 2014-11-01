@@ -1,1 +1,7 @@
 --- Log opened 六 11月 01 00:00:23 2014
+09:45  * matlinuxer2 yan: 對了，你之前不是想改 docker 的 inspect 的功能，有改出來嗎?
+09:48 < yan__> 還沒耶，不過之前的用意是說，sysd 已經有模組並且跟 docker 能通用
+09:48 < yan__> 這樣就可以在 host 取得 container 的資訊
+09:49 < yan__> 包含 CPU、Memory、NET 等
+09:50 < yan__> 最近，不知道 docker remote api 那邊有沒有這個功能
+09:50 < matlinuxer2> 了解...
