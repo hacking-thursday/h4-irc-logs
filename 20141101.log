@@ -5,3 +5,11 @@
 09:49 < yan__> 包含 CPU、Memory、NET 等
 09:50 < yan__> 最近，不知道 docker remote api 那邊有沒有這個功能
 09:50 < matlinuxer2> 了解...
+09:51 < matlinuxer2> yan__: ok, 我再看一下好了, 我想說下午如果沒事作, 就作個小 patch 之類的 XD
+09:57 < yan__> 不過後來也有發現
+09:57 < yan__> 他 container 裡的資訊跟 host 是一樣的
+09:57 < yan__> 如 CPU
+09:57  * matlinuxer2 yan__: 喔 對 ，我想起來了...
+09:58 < matlinuxer2> yan__: 那一天作的實驗，確實是一樣的
+10:00 < matlinuxer2> yan__: 哈，搞不好會遇到 container A 開 top , 發現 top 的 cpu 超高，但其實都是 container B 的 process 在用的這種狀r況~~
+10:00 < yan__> 嗯呀
