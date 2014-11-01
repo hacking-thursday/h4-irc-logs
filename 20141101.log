@@ -26,3 +26,4 @@
 20:02 <@hychen> s/ircbot/macbook/g
 23:05 < matlinuxer2> https://bitbucket.org/matlinuxer2/mat-portage-overlay/src/5560d14c6934fc195cebb113ecec36407b252aa5/app-emulation/docker/files/docker-9999.patch?at=master
 23:05 < matlinuxer2> patch for docker on i386
+--- Log closed 日 11月 02 00:00:25 2014
