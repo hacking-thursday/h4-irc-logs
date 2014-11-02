@@ -22,3 +22,4 @@
 02:01 < matlinuxer2> good~!
 13:17 < sysd> [sysd] matlinuxer2 deleted branches/mat at 7a727d0: http://git.io/ck__hQ
 22:07 < sysd> [sysd] a0726h77 opened pull request #15: 修正 /etc/init.d/sysd stop 有時失效 (devel...start-stop-daemon) http://git.io/YMli9w
+22:27 < sysd> [sysd] matlinuxer2 closed pull request #15: 修正 /etc/init.d/sysd stop 有時失效 (devel...start-stop-daemon) http://git.io/YMli9w
