@@ -3,3 +3,17 @@
 --- Log opened 一 11月 03 04:10:21 2014
 04:10 -!- Irssi: #h4: Total of 20 nicks [5 ops, 0 halfops, 0 voices, 15 normal]
 04:10 -!- Irssi: Join to #h4 was synced in 11 secs
+09:06 < matlinuxer2> 早安~
+09:06 < matlinuxer2> FourDollars: 請問一下你知道有那些 debian packages 是用 golang 寫的嗎?
+09:07 <@FourDollars> matlinuxer2: docker 跟 juju 吧
+09:08 <@FourDollars> matlinuxer2: 只是不曉得有沒有放在 Debian archives 裡面就是了 :P
+09:08 < matlinuxer2> FourDollars: 了解 Thanks~
+09:09 < matlinuxer2> matlinuxer2: 正在研究怎麼包 golang 的程式, 你有包過嗎?
+09:09 < matlinuxer2> 剛剛看到 docker 是用 fpm 的樣子
+09:09 < matlinuxer2> https://github.com/jordansissel/fpm
+09:10 <@FourDollars> 沒有耶
+09:10 <@FourDollars> 很少會碰到 golang 的程式
+09:14  * matlinuxer2 FourDollars: 對, 我想找個 debian pkg 觀摹一下，結果找半天都找不到 XD
+09:15 <@FourDollars> matlinuxer2: ITP 的時候會寫使用的程式語言，也許可以從這點下手。
+09:15 < matlinuxer2> FourDollars: 喔 對，我再去找找看 ^^ thanks~
+09:16 <@FourDollars> matlinuxer2: Search "debian lang golang itp" 有不少
