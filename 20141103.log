@@ -29,3 +29,9 @@
 22:24 < h4> test
 22:31 < h4> test
 23:45 < matlinuxer2> http://stackoverflow.com/questions/15104089/packaging-golang-application-for-debian
+23:55 < h4-scripts> [h4-scripts] a0726h77 opened pull request #41: etherpad irc notifier (develop...etherpad_irc_notifier) http://git.io/vTQU0Q
+23:57 < h4-scripts> [h4-scripts] a0726h77 closed pull request #41: etherpad irc notifier (develop...etherpad_irc_notifier) http://git.io/vTQU0Q
+23:58 < h4-scripts> [h4-scripts] a0726h77 pushed 2 new commits to develop: http://git.io/npLZHQ
+23:58 < h4-scripts> h4-scripts/develop 93c7197 yan: fix : irc channel
+23:58 < h4-scripts> h4-scripts/develop 5b4f8e0 yan: Merge branch 'etherpad_irc_notifier' into develop
+--- Log closed 二 11月 04 00:00:27 2014
