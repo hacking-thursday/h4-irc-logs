@@ -19,3 +19,5 @@
 09:16 <@FourDollars> matlinuxer2: Search "debian lang golang itp" 有不少
 10:09 < yan> matlinuxer2: 可以直接請問一下嗎，之前有 survey 過 sync.in 如何取得 revision，我想說也把他打到 irc？
 10:24 < matlinuxer2> yan: 我忘了把它丟去那了...XD
+11:55 < matlinuxer2> yan:  應該是 h4-scripts 下的 h4_etherpad_notifier
+11:55 < matlinuxer2> yan: 你找找看, sync.in 應該也是 etherpad 的系統
