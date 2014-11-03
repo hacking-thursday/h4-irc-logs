@@ -2,3 +2,10 @@
 00:13 < matlinuxer2> yan++
 00:14 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
 00:19 < yan> matlinuxer2: 不知道運作真的正不正常
+00:38 < matlinuxer2> yan: 應該是 ok 的~
+00:44 < h4-scripts> [h4-scripts] a0726h77 pushed 2 new commits to develop: http://git.io/Ua8QsA
+00:44 < h4-scripts> h4-scripts/develop 39d8c93 yan: fix: syntax error
+00:44 < h4-scripts> h4-scripts/develop 58c8ac7 yan: Merge branch 'etherpad_irc_notifier' into develop
+00:48 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+00:49 < yan> matlinuxer2: ok 了
+00:50 < yan> 之後偵測的頻率是 20 min
