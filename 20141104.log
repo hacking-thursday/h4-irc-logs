@@ -72,3 +72,5 @@
 10:32 < kanru> buildbot config
 10:33 < kanru> 去開會, 有問題再討論 XD
 10:33 < matlinuxer2> kanru: OK, 感謝指點!!~
+14:27 < sysd> [sysd] matlinuxer2 opened pull request #16: 修正 docker/pkg/log 的 dependency 問題 (devel...fix-log) http://git.io/O8IRxg
+14:35 < matlinuxer2> yan: 你之前有包 sysd 的 debian package ?
