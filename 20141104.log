@@ -93,3 +93,4 @@
 22:40 < matlinuxer2> yan: 我有包了
 22:41 < matlinuxer2> yan: 只是我看到你有放 debian/sysd.init 的檔案，想說你怎麼會知道要放在那位置
 22:42 < yan> 我忘記參考什麼來的
+23:12 < sysd> [sysd] a0726h77 closed pull request #16: 修正 docker/pkg/log 的 dependency 問題 (devel...fix-log) http://git.io/O8IRxg
