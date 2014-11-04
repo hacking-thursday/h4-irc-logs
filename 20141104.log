@@ -74,3 +74,6 @@
 10:33 < matlinuxer2> kanru: OK, 感謝指點!!~
 14:27 < sysd> [sysd] matlinuxer2 opened pull request #16: 修正 docker/pkg/log 的 dependency 問題 (devel...fix-log) http://git.io/O8IRxg
 14:35 < matlinuxer2> yan: 你之前有包 sysd 的 debian package ?
+16:07 < matlinuxer2> 請教一下， debian/control  中的  Vcs-Git / Vcs-Browser 這兩個欄位是作什麼的呢?
+16:07 < matlinuxer2> 好像都會存到 git://anonscm.debian.org 這個 repository
+16:07 < matlinuxer2> 之前沒看過...
