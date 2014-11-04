@@ -9,3 +9,31 @@
 00:48 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
 00:49 < yan> matlinuxer2: ok 了
 00:50 < yan> 之後偵測的頻率是 20 min
+09:54 < matlinuxer2> 早安~
+09:55 < matlinuxer2> 唉  debian packaging 的東西都忘光光了
+09:57  * matlinuxer2 覺得gentoo/arch 的比較直覺一點...
+10:10 < kanru> matlinuxer2: 現在 dh 很簡單？
+10:11 < kanru> 只是 debian 表面上看起來東西比較複雜 :P
+10:11 < matlinuxer2> kanru: 怎麼說?
+10:11 < matlinuxer2> kanru: XD
+10:12 < kanru> 寫好 debian/changelog, debian/control 然後用 debian/rules 把東西裝到 debian/tmp -> done
+10:12 < matlinuxer2> kanru: 那那個 <pkgname>.install 是用作...?
+10:15 < matlinuxer2> kanru: BTW,  那個 debian 有人在用 docker 在 build pkg 嗎?
+10:16 < matlinuxer2> 這兩天實用的感覺還蠻方便的，比以前開 qemu 來 build package 時，好用多了~
+10:17 < kanru> 不知道耶, 一直想試試 docker
+10:17 < kanru> 之前用 schroot 是可以搭配 btrfs subvolume
+10:18 < matlinuxer2> 喔喔, 我是覺得 docker 比 chroot 更先進一點~
+10:18 < kanru> <pkgname>.install 只是方便一點而已
+10:19 < kanru> debian/rules -> imperative
+10:19 < kanru> debian/*.install -> declarative
+10:20 < matlinuxer2> docker 感覺像是 chroot + aufs layer management
+10:20 < matlinuxer2> kanru: 嗯嗯
+10:21 < matlinuxer2> kanru: 我之前處理標準的 c/c++ tarball，很多用預設的就可以了
+10:21 < matlinuxer2> kanru: 現在要包 golang 的 package
+10:21 < kanru> 通常會有 dh-xx 幫你 XD
+10:21 < matlinuxer2> kanru: 因為 golang 是用它自己的 build system/convention. 所以有點不知道怎麼處理...
+10:22 < kanru> 果然有 dh-golang
+10:22 < matlinuxer2> kanru: 喔，我有看到
+10:22 < kanru> matlinuxer2: 現在幾乎都是這樣做
+10:22 < kanru> build-dep: dh-golang
+10:22 < matlinuxer2> kanru: but, 我比較想要 sample package XD
