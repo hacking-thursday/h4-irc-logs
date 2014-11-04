@@ -88,3 +88,4 @@
 16:48 < matlinuxer2> 因為 golang project 的 debian/rules 裡，一定會用到這兩個關鍵字~
 16:51 < matlinuxer2> 不過後來我完全沒用到 debhelper-golang 的部份，因為我想說 dh 會用到 ./configure ; make ; DESTDIR=xxx make install 這兩個指定. 我只要弄出 ./configure 跟 ./Makefile 檔案，給 dh 去呼叫就可以了~
 16:52 < matlinuxer2> kanru: 對了, 我想請教一下, 目前 debian 有像 PPA 那樣的東西，可以給大家自行上傳測試套件嗎?
+21:53 < yan> matlinuxer2: 我沒有包過耶，只好趁機研究一下了
