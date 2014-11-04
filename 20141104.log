@@ -77,3 +77,14 @@
 16:07 < matlinuxer2> 請教一下， debian/control  中的  Vcs-Git / Vcs-Browser 這兩個欄位是作什麼的呢?
 16:07 < matlinuxer2> 好像都會存到 git://anonscm.debian.org 這個 repository
 16:07 < matlinuxer2> 之前沒看過...
+16:37 < kanru> matlinuxer2: 代表這個 package 的 repository url 與給人看的網站
+16:37 < kanru> 會顯示在 tracker.debian.org 裡面
+16:37 < kanru> 如 https://tracker.debian.org/pkg/glibc 就會顯示 VCS: Subversion (Browse)
+16:38 < sysd> [sysd] matlinuxer2 opened pull request #17: 新增 debian package 的 draft (devel...pkg-deb) http://git.io/GRXVjQ
+16:39 < matlinuxer2> kanru:  了解~ 那新包的 pkg ，是可以直接填 github 的 git url 嗎? 還是說要等 submit 到 debian repository 後才能填?
+16:45 < matlinuxer2> kanru: tracker.debian.org 作的很棒耶~
+16:46 < matlinuxer2> kanru: 是 packages.qa.debian.org 的下一代, right?
+16:47 < matlinuxer2> 早上我用 google://+DH_VERBOSE+GOPATH 來找 sample debian package
+16:48 < matlinuxer2> 因為 golang project 的 debian/rules 裡，一定會用到這兩個關鍵字~
+16:51 < matlinuxer2> 不過後來我完全沒用到 debhelper-golang 的部份，因為我想說 dh 會用到 ./configure ; make ; DESTDIR=xxx make install 這兩個指定. 我只要弄出 ./configure 跟 ./Makefile 檔案，給 dh 去呼叫就可以了~
+16:52 < matlinuxer2> kanru: 對了, 我想請教一下, 目前 debian 有像 PPA 那樣的東西，可以給大家自行上傳測試套件嗎?
