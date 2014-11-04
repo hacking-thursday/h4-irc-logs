@@ -89,3 +89,7 @@
 16:51 < matlinuxer2> 不過後來我完全沒用到 debhelper-golang 的部份，因為我想說 dh 會用到 ./configure ; make ; DESTDIR=xxx make install 這兩個指定. 我只要弄出 ./configure 跟 ./Makefile 檔案，給 dh 去呼叫就可以了~
 16:52 < matlinuxer2> kanru: 對了, 我想請教一下, 目前 debian 有像 PPA 那樣的東西，可以給大家自行上傳測試套件嗎?
 21:53 < yan> matlinuxer2: 我沒有包過耶，只好趁機研究一下了
+22:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+22:40 < matlinuxer2> yan: 我有包了
+22:41 < matlinuxer2> yan: 只是我看到你有放 debian/sysd.init 的檔案，想說你怎麼會知道要放在那位置
+22:42 < yan> 我忘記參考什麼來的
