@@ -37,3 +37,38 @@
 10:22 < kanru> matlinuxer2: 現在幾乎都是這樣做
 10:22 < kanru> build-dep: dh-golang
 10:22 < matlinuxer2> kanru: but, 我比較想要 sample package XD
+10:22 < kanru> 然後 dh --with=golang
+10:22 < kanru> 就好了
+10:24 < matlinuxer2> https://www.irccloud.com/pastebin/VMrOwo4f
+10:24 < matlinuxer2> 目前寫的 debian/rules 是這樣
+10:24 < kanru> 看起來好像差不多是這樣 XD
+10:24 < matlinuxer2> https://www.irccloud.com/pastebin/Axx7GToU
+10:24  * kanru 不知道 sysd 是 golang
+10:25 < matlinuxer2> build error log 大概是上面這樣~
+10:25 < matlinuxer2> kanru: 科科, 因為是從 docker 臨摹來的, 就跟著用 golang 了
+10:25 < kanru> 我猜是 dependency
+10:26 < kanru> 可能不會自己去抓 depend 的 package?
+10:26 < matlinuxer2> kanru: yes, 要用 golang 的 build tool 的方式去抓
+10:26 < kanru> 那就..
+10:27 < kanru> debian 理論上 dependcy 都要在 debian 裡面吧，不知道有沒有支援 build time 抓
+10:27 < matlinuxer2> kanru: yes, debian 預設的前提假設是 deps 都是 deb pkg, and 用 debian 的方式安裝.
+10:27 < kanru> yepp
+10:27 < kanru> 所以就先裝好 dep 之後應該就可以了
+10:28 < matlinuxer2> 不過我也沒辦法幫每個 dep 都包 debian package 說, 有 N>5 個耶... XD
+10:28 < matlinuxer2> kanru: 我了解，我試試看，看能不能 override configure time 的 function 好了 ~
+10:29 < kanru> 系統上先用 go build 裝好之後應該就可以在 build package 的時候找到了吧
+10:29 < kanru> 系統上要有 dep 但是不一定要用 debian 方式裝？
+10:29 < matlinuxer2> kanru: yup
+10:30 < matlinuxer2> kanru: 不過我想說是不是把抓 deps 的步驟寫在 debian/rules 裡比較好
+10:31 < kanru> 也..行...
+10:31 < matlinuxer2> kanru: 不找之後丟 buildbot 時，buildbot 不會幫我們"手動"安裝deps的~~ XD
+10:31 < matlinuxer2> s/不找/不然/g
+10:31 < kanru> 可以寫在 build rule 裡面 :P
+10:31 < matlinuxer2> build rule == debian/rules ? ( 確定一下..)
+10:32 < kanru> 那就在 debian/rules 裡面 override_auto_configure: install-dep
+10:32 < kanru> buildbot 不是還有自己的 build rule 嗎
+10:32 < kanru> 我記得可以設定步驟
+10:32 < kanru> 不過那就要改到 buildbot 比較麻煩 :P
+10:32 < kanru> buildbot config
+10:33 < kanru> 去開會, 有問題再討論 XD
+10:33 < matlinuxer2> kanru: OK, 感謝指點!!~
