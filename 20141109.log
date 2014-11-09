@@ -33,3 +33,6 @@
 13:47 < matlinuxer2> BTW, 昨天上傳了 0.5.0 版的 ubuntu pkg.
 16:17 < matlinuxer2> Hello, 想請教一下大家，rpm 的世界有沒有像 PPA 那樣的 build+hosting service 呢?
 16:19 -!- yan changed the topic of #h4 to: 主網頁 http://www.hackingthursday.org/ 每週共筆分享 http://sync.in/h4 聊天記錄 https://scrollback.io/h4?tab=info
+17:17 <@matlinuxer2> 好像沒什麼選擇，看來得投靠 https://build.opensuse.org/ 了...
+17:27 < sysd> [sysd] matlinuxer2 opened pull request #28: 新增 rpm 套件打包(draft) (devel...pkg_rpm) http://git.io/g2CB1w
+17:29 <@matlinuxer2> 想請教一下大家， github.com 有沒有什麼方式可以上傳自製的 tarball?
