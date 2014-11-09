@@ -58,3 +58,6 @@
 18:06 < tsaikd> matlinuxer2: 不然就再開一個新的專案來放吧
 18:06 < tsaikd> matlinuxer2: sysd-bin 之類的...XD
 18:15 <@matlinuxer2> BTW, sysd 剛剛在 open build server 上 pass 了 fedora 20 的 build
+18:19 < tsaikd> matlinuxer2: web ui 傳上去了, material 風格
+18:28 < habachang> markdown轉html
+18:28 < habachang> 大家有用過mistune嗎
