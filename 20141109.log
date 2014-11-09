@@ -1,0 +1,33 @@
+--- Log opened 日 11月 09 00:00:35 2014
+--- Log closed 日 11月 09 04:14:58 2014
+--- Log opened 日 11月 09 04:15:08 2014
+04:15 -!- Irssi: #h4: Total of 21 nicks [2 ops, 0 halfops, 0 voices, 19 normal]
+04:15 -!- Irssi: Join to #h4 was synced in 10 secs
+11:06 < matlinuxer2> http://www.slideshare.net/mobile/apigee/restful-api-design-second-edition
+11:57 < tsaikd> matlinuxer2: sysd module route 我新增了一種 /* 的用法
+11:58 < tsaikd> yan: irc log 沒在記了嗎?
+12:01 < yan> tsaikd: 下午 check 一下~
+12:01 < matlinuxer2> tsaikd: 我看到 commit 了~ GJ!!!
+12:02 < matlinuxer2> tsaikd: 可以先用  https://scrollback.io/h4?tab=info 看 IRC log, 手機上也很方便
+12:03 < matlinuxer2> yan: 要不要先將 irc 的 topic 的 "聊天紀錄" 換成 scrollback.io 那個
+12:03 < matlinuxer2> yan: github 的 irc log 可以用作 log archive
+12:10 < yan__> 糟，已經五天沒上傳，因為我一直掛著都沒在看 log
+12:10 < yan__> 感謝 kd 提醒
+12:17 < tsaikd> matlinuxer2: 網頁需要一個 icon, 有啥建議嗎?
+12:50 < matlinuxer2> tsaikd: https://octicons.github.com/icon/puzzle/ 這個如何?
+12:53 < matlinuxer2> tsaikd: github.com 出的 iconset,  MIT License 的
+12:53 < matlinuxer2> tsaikd: prototype 期先頂著用，之後可以再徵正式的 icon~
+13:10 < tsaikd> matlinuxer2: 我指的是網頁上的 favicon 喔
+13:12  * matlinuxer2 tsaikd: yes, 就剛剛那個拼圖的圖示, 如何?
+13:12 < matlinuxer2> tsaikd: 或是那整張圖裡面挑一張喜歡的~
+13:14 < tsaikd> matlinuxer2: 結果他是用 font....Orz...要用小畫家把它變成 png 嗎??...XD
+13:15  * matlinuxer2 tsaikd: 好的，我來想辦法，等我一下~
+13:24  * matlinuxer2 tsaikd: favicon 的 size 是多少呢? 36x36?
+13:24 < matlinuxer2> tsaikd: 還是 16x16?
+13:28 < tsaikd> matlinuxer2: 應該隨意吧, 現在瀏覽器應該都會自己調整
+13:29 < tsaikd> matlinuxer2: 弄大一點應該比較不會失真
+13:31 < matlinuxer2> tsaikd: http://imgur.com/a/itYoX
+13:31 < matlinuxer2> tsaikd: 我作了 3 個尺寸, 16,32,48px
+13:31 < matlinuxer2> 需要其他尺寸再跟我說 :-)
+13:47 < matlinuxer2> https://launchpad.net/~matlinuxer2/+archive/ubuntu/sysd/+packages
+13:47 < matlinuxer2> BTW, 昨天上傳了 0.5.0 版的 ubuntu pkg.

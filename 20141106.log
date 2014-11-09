@@ -1,0 +1,39 @@
+--- Log opened 四 11月 06 00:00:30 2014
+03:27 < sysd> [sysd] a0726h77 opened pull request #21: Update Readme (devel...readme) http://git.io/CsYbxQ
+04:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+--- Log closed 四 11月 06 04:50:39 2014
+--- Log opened 四 11月 06 04:50:49 2014
+04:50 -!- Irssi: #h4: Total of 21 nicks [5 ops, 0 halfops, 0 voices, 16 normal]
+04:50 -!- Irssi: Join to #h4 was synced in 10 secs
+08:29 < sysd> [sysd] matlinuxer2 closed pull request #21: Update Readme (devel...readme) http://git.io/CsYbxQ
+08:30 < matlinuxer2> 早安~
+11:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+16:33 < yan> hello~ 到伯朗了
+16:33 < matlinuxer2> yan++
+16:48 < sysd> [sysd] matlinuxer2 opened pull request #22: 新增 sysd-cli 之 client 端命令列工具 (devel...sysd-cli) http://git.io/10pPzw
+17:17 < sysd> [sysd] a0726h77 closed pull request #22: 新增 sysd-cli 之 client 端命令列工具 (devel...sysd-cli) http://git.io/10pPzw
+17:17 < yan> matlinuxer2: 哇，跟 ifconfig 好像哦
+17:17 < yan> :D
+17:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+18:25 < matlinuxer2> 科科~
+19:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+19:40 < matlinuxer2> snowwolf725: hihi
+19:47 < matlinuxer2> tsaikd, kfei : ping
+20:01 < matlinuxer2> 今天路人比較多...
+20:15  * matlinuxer2 剛剛將 sysd 的 devel 版本 v0.4.0 merge 進 master 分支了
+20:18 < sysd> [sysd] wagamama opened pull request #23: Fix build issue on OSX (devel...fix-mac-build) http://git.io/umyaYQ
+20:19 < matlinuxer2> brucetsai: GJ
+20:20 < sysd> [sysd] matlinuxer2 closed pull request #23: Fix build issue on OSX (devel...fix-mac-build) http://git.io/umyaYQ
+20:26 < Jacklin> 嗨，我是新來的
+20:26 < matlinuxer2> Jacklin: hihi~
+20:26 < matlinuxer2> 我坐你左邊~
+20:27 < Jacklin> @ matlinuxer2 哈哈好的喔
+20:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+20:47 < matlinuxer2> https://bugs.funtoo.org/secure/Dashboard.jspa
+20:47 < matlinuxer2> funtoo 越來越強了!!
+21:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+21:20 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+22:30 < Jacklin> 啊，跟大家聊一下大概知道我學習的問題在哪裡了
+22:30 < Jacklin> 希望下次去有東西可以討論xD
+22:54 < matlinuxer2> 非常歡迎~
+--- Log closed 五 11月 07 00:00:32 2014

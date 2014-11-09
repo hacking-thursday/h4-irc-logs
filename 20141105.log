@@ -1,0 +1,60 @@
+--- Log opened 三 11月 05 00:00:29 2014
+08:35 < matlinuxer2> 早安~
+11:46 < yan> matlinuxer2: https://wiki.debian.org/MichaelStapelberg/GoPackagingk
+11:46 < yan> matlinuxer2: http://anonscm.debian.org/cgit/collab-maint/golang-pq-dev.git/tree/
+11:49 < matlinuxer2> yan: 謝謝
+11:52 < matlinuxer2> yan: golang project package 目前我覺得比較棘手的是 dependencies pulling
+11:53 < matlinuxer2> yan:  debian 系統要求大家用 Build-Depends 的方式來填 deps 套件
+11:53 < matlinuxer2> yan: 但很多沒有 deb 套件
+11:54 < matlinuxer2> yan: 用 go get 可以通, 但 go get 的方式上不了 buildd ( buildbot 好像不能對外抓 github 的檔案 )
+11:55 < matlinuxer2> yan: 所以目前只能先想辦法把 deps 包在裡面...
+12:21 < yan> matlinuxer2: 所以要事先拉套件放在專案資料夾裏嗎
+12:32 < matlinuxer2> yan: yup, 可能就像 docker/vendor/ 的目錄那樣~
+12:42 < yan> matlinuxer2: ohoh~
+12:58 < yan> matlinuxer2: 看到 docker 把 vendor 加入 GOPATH
+13:20 < sysd> [sysd] a0726h77 closed pull request #17: 新增 debian package 的 draft (devel...pkg-deb) http://git.io/GRXVjQ
+14:04 < tsaikd4> matlinuxer2: 試看看godep?整包打包進去
+14:06 < matlinuxer2> tsaikd4: 好 我試試~
+14:06 < matlinuxer2> yan++
+14:16 < yan> matlinuxer2: 請問一下，昨天我 merge 後，不過他 branch 沒有自動砍掉
+14:18 < matlinuxer2> yan: 有另一個按鈕是 delete branch
+14:21 < yan> matlinuxer2: ok :)
+15:18 < sysd> [sysd] a0726h77 opened pull request #19: Update sysd Dockerfile (devel...dockerfile) http://git.io/8YLD1A
+16:20 < tsaikd4> 剛剛發現 sysd return http status code 都是 404....XD
+16:38  * matlinuxer2 tsaikd4: XD
+16:48 < matlinuxer2> tsaikd4: 我裝了 godep, 試了一下，還不知道怎麼使用
+16:58 < tsaikd4> matlinuxer2: https://github.com/tools/godep 用 godep save 可以把現在的環境存下來, 用 godep go build 可以用存下來的環境 build
+17:00 < matlinuxer2> https://www.irccloud.com/pastebin/lFjdrDM3
+17:00 < matlinuxer2> tsaikd4: 我執行的錯誤訊息像上面這樣
+17:12 < tsaikd4> matlinuxer2: godep go build ./...
+17:13 < matlinuxer2> https://www.irccloud.com/pastebin/S7To2ufP
+17:14 < matlinuxer2> tsaikd4: 還是沒成功 >,<||
+17:16 < tsaikd4> matlinuxer2: 你那個目錄ls一下...該不會是checkout到master那個沒檔案的版本吧?
+17:21 < yan> tsaikd4: Godeps 這個資料夾要自己手動建立？
+17:21 < yan> matlinuxer2: 這個專案也有用 godep https://github.com/coreos/etcd
+17:22 < matlinuxer2> tsaikd4: 還是沒成功
+17:22 < matlinuxer2> yan: 你的 godep 可以 works?
+17:23  * matlinuxer2 先來將手邊的東西 commit & push
+17:24 < yan> matlinuxer2: 不行，研究中
+17:30 < yan> 是不是進入 sysd 主程式的資料夾
+17:30 < yan> godep go build ./...
+17:30 < yan> godep save
+17:33 < sysd> [sysd] matlinuxer2 opened pull request #20: Save the current work for ubuntu/PPA (devel...ppa) http://git.io/og1ciw
+17:36 < yan> matlinuxer2: 我這邊 godep save 成功
+17:36 < tsaikd4> git clone xxxxxxxxxxxxxxxxxsysd
+17:36 < tsaikd4> godep save ./...
+17:36 < tsaikd4> godep go build ./...
+17:37 < tsaikd4> godep go test ./...
+17:37 < yan> tsaikd4: 成功
+17:38 < yan> 我有把 $GOPATH/src/github.com/docker/ 砍掉重拉
+17:39 < brucetsai> 11/8 g0v summit有人有興趣嗎?  一張票出讓
+17:39 < brucetsai> http://g0v-tw.kktix.cc/events/g0v-summit-2014-con-nor
+18:30 < matlinuxer2> tsaikd4, yan :還是不行, 簡直鬼打牆...XD
+18:30 < matlinuxer2> 找機會再來試好了，先作其他部份~
+20:13 < sysd> [sysd] a0726h77 closed pull request #20: Save the current work for ubuntu/PPA (devel...ppa) http://git.io/og1ciw
+22:06 < sysd> [sysd] matlinuxer2 closed pull request #19: Update sysd Dockerfile (devel...dockerfile) http://git.io/8YLD1A
+--- Log closed 三 11月 05 23:12:57 2014
+--- Log opened 三 11月 05 23:13:06 2014
+23:13 -!- Irssi: #h4: Total of 21 nicks [5 ops, 0 halfops, 0 voices, 16 normal]
+23:13 -!- Irssi: Join to #h4 was synced in 11 secs
+--- Log closed 四 11月 06 00:00:30 2014
