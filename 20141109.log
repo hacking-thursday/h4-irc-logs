@@ -36,3 +36,18 @@
 17:17 <@matlinuxer2> 好像沒什麼選擇，看來得投靠 https://build.opensuse.org/ 了...
 17:27 < sysd> [sysd] matlinuxer2 opened pull request #28: 新增 rpm 套件打包(draft) (devel...pkg_rpm) http://git.io/g2CB1w
 17:29 <@matlinuxer2> 想請教一下大家， github.com 有沒有什麼方式可以上傳自製的 tarball?
+17:47 < tsaikd> matlinuxer2: 用 gh-pages branch
+17:48 < tsaikd> matlinuxer2: 現在用 deb rpm 之類的安裝包預設會把檔案裝到哪個目錄？我現在想要讓 sysd 免參數預設就可以找到 UI 的目錄
+17:50 <@matlinuxer2> tsaikd: 預設會裝到 /usr/sbin/sysd
+17:53 < tsaikd> matlinuxer2: 那網頁的資料要放到哪？
+17:55 <@matlinuxer2> tsaikd: 理論上是 => /usr/share/sysd/
+17:55 < tsaikd> matlinuxer2: ex: /usr/share/sysd/mods/ui/index.html ?
+17:56 <@matlinuxer2> tsaikd: /usr/share/sysd/webui/index.html  .. 如何?
+17:56 <@matlinuxer2> 比較容易記
+17:56 < tsaikd> matlinuxer2: ok
+17:57 <@matlinuxer2> tsaikd: BTW, 你的開發主力機是 windows ? 還是 osx?
+17:58 < tsaikd> matlinuxer2: 在家用 windows, 公司用 lubuntu, 出外用 macbook air
+18:02 <@matlinuxer2> tsaikd: 主要平台你都有了XD
+18:03 <@matlinuxer2> tsaikd: gh-pages 我不是很了解
+18:03 <@matlinuxer2> tsaikd: 在 sysd 裡建一個獨立的 gh-pages 分支?
+18:03 <@matlinuxer2> tsaikd: 我主要是想找個地方放 sysd-0.5.0.tar.gz
