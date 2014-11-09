@@ -51,3 +51,10 @@
 18:03 <@matlinuxer2> tsaikd: gh-pages 我不是很了解
 18:03 <@matlinuxer2> tsaikd: 在 sysd 裡建一個獨立的 gh-pages 分支?
 18:03 <@matlinuxer2> tsaikd: 我主要是想找個地方放 sysd-0.5.0.tar.gz
+18:03 < tsaikd> matlinuxer2: Y...就是把網頁放到 github 上
+18:04 < tsaikd> matlinuxer2: 術語好像叫做 github pages
+18:04 <@matlinuxer2> tsaikd: 那 git clone sysd 時，會把 gh-pages 分支的內容也下載下來?
+18:05 <@matlinuxer2> tsaikd: 我怕 gh-pages 的檔案越來越多之後，下載會越來越慢.
+18:06 < tsaikd> matlinuxer2: 不然就再開一個新的專案來放吧
+18:06 < tsaikd> matlinuxer2: sysd-bin 之類的...XD
+18:15 <@matlinuxer2> BTW, sysd 剛剛在 open build server 上 pass 了 fedora 20 的 build
