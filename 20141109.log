@@ -68,3 +68,8 @@
 20:46 <@yan> matlinuxer2, tsaikd ++
 20:57 < sysd> [sysd] a0726h77 closed pull request #28: 新增 rpm 套件打包(draft) (devel...pkg_rpm) http://git.io/g2CB1w
 21:00 <@matlinuxer2> yan: 謝啦~
+21:17 < sysd> [sysd] a0726h77 opened pull request #29: package 測試的 dockerfile (devel...dockerfiles) http://git.io/ZRZmbg
+21:25 < sysd> [sysd] matlinuxer2 closed pull request #29: package 安裝測試的 dockerfile (devel...dockerfiles) http://git.io/ZRZmbg
+21:39 < sysd> [sysd] a0726h77 opened pull request #30: 新增 fedora 20 套件測試的 dockerfile (devel...dockerfiles) http://git.io/uvdV_g
+21:44 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+21:45 < sysd> [sysd] matlinuxer2 closed pull request #30: 新增 fedora 20 套件測試的 dockerfile (devel...dockerfiles) http://git.io/uvdV_g
