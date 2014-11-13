@@ -47,3 +47,17 @@
 17:37 < bcbcarl> 先把它註冊下來
 17:37 < matlinuxer2> ok
 17:37 < matlinuxer2> h4 @ slack 不知道是不是 yan 註下來的?
+17:37 < matlinuxer2> yan: ping
+17:37 < matlinuxer2> yan: 到台北了?
+17:38 < bcbcarl> 不是
+17:38 < bcbcarl> h4 @ slack 是別人
+17:42 < yan> matlinuxer2: 到了
+17:43 < yan> d1t21: hello
+17:43 < matlinuxer2> yan: (y)
+17:43 < d1t21> @yan1 hey (wave)
+17:43 < yan> :)
+17:45 < matlinuxer2> yan: 請教一下, imgur 有沒有什麼 screeshot 的 hotkey script / plugin 可以用?
+17:46 < yan> 我是用 imgur-screenshot
+17:46 < yan> github 上
+17:46 < yan> 一個 shell script 呼叫 scrot 然後再上傳
+17:47  * yan slack 登入時還要選擇 domain 好奇怪
