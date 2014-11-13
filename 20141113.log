@@ -61,3 +61,16 @@
 17:46 < yan> github 上
 17:46 < yan> 一個 shell script 呼叫 scrot 然後再上傳
 17:47  * yan slack 登入時還要選擇 domain 好奇怪
+17:49 < d1t21> 也註冊slack，但不知道可以怎麼用
+17:50 < matlinuxer2> yan: 太好了，感謝!!
+17:51 < yan> 再用 qtile 快捷鍵綁他看看
+17:52 < yan> 我建 soft link 到 /bin
+18:05 < bcbcarl> 其實我有個想法，但還來不及 survey
+18:05 < bcbcarl> 不過還是提一下好了
+18:06 < bcbcarl> 我總覺得應該也有辦法不在 Mac 系統裝 Go 來編 sysd
+18:06 < bcbcarl> 即便是用類似 pyenv, virtualenv 的方式也都 ok
+18:07 < bcbcarl> 我要出發到 H4 場地了
+18:07  * matlinuxer2 準備出門ing, too
+18:10 < matlinuxer2> BTW, 感覺上，大家好像都想盡辦法不在 desktop 上安裝開發工具，說不定以後開發工具都要上雲端了 XD
+18:10 < matlinuxer2> 科科
+18:18 < d1t21> 請問先前是否有討論過如何做 unit test？
