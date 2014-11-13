@@ -74,3 +74,4 @@
 18:10 < matlinuxer2> BTW, 感覺上，大家好像都想盡辦法不在 desktop 上安裝開發工具，說不定以後開發工具都要上雲端了 XD
 18:10 < matlinuxer2> 科科
 18:18 < d1t21> 請問先前是否有討論過如何做 unit test？
+18:21 < d1t21> 看來像是個別module各自測，test in docker way 好像太麻煩了(?)
