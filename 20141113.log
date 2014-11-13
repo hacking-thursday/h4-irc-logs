@@ -5,3 +5,18 @@
 15:05 < tsaikd> d1t21: Y...我有發現裡面有bug...主要是大小寫問題...XD
 15:32 < d1t21> 剛寫的PKGBUILD(https://aur.archlinux.org/packages/sysd-git/) 會在Archlinux裝上 devel branch
 16:12 < tsaikd> icon 問題修正了, 等 mat or yan merge吧...^_^
+16:30 < matlinuxer2> /me 立馬 merge
+16:31 < matlinuxer2> tsaikd++ , d1t21++
+16:31 < matlinuxer2> d1t21: GJ
+16:39 < matlinuxer21> test
+16:42 < bcbcarl> @d1t2 是？
+16:42 < matlinuxer2> bcbcarl: dieter
+16:42 < bcbcarl> 沒想到竟然已經有 AUR
+16:43  * matlinuxer2 應該沒錯吧? XD
+16:43 < bcbcarl> 我好像連不上
+16:44 < matlinuxer2> bcbcarl: 你是說 scrollback.io ?
+16:44 < bcbcarl> AUR
+16:44 < bcbcarl> 是我這邊 DNS 的關係嗎？你們可以連嗎？
+16:45 < matlinuxer2> 我可以連~
+16:46 < bcbcarl> 那就是 DNS
+16:47 < matlinuxer2> 你是設 8.8.8.8 ( google dns) ?
