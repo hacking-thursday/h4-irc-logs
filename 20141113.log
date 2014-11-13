@@ -27,3 +27,8 @@
 16:48  * matlinuxer2 輸人不輸陣~
 16:48 < bcbcarl> 所以 scrollback 要怎麼下指令
 16:48 < bcbcarl> 測試
+16:50 < matlinuxer2> "/msg nickserv identify <nick>  <pass>" 這樣...?
+16:50 < bcbcarl> 看起來是認不到 nickserv
+16:51 < matlinuxer2> google DNS 有時候會出問題
+16:52 < matlinuxer2> 上次挫過一次，我後來都用 hinet 的 DNS 了
+16:52 < matlinuxer2> 其實 hinet 的 DNS 還蠻穩的...
