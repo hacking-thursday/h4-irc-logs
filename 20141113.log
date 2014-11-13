@@ -86,3 +86,18 @@
 21:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
 21:36 < ikariwing> yo.
 21:37 < otteed> Yoho
+22:28 < d1t21> @matlinuxer22 想說unit test有沒有規範照著做，也因為對golang和內建的unit test 機制不太熟悉
+22:28 < d1t21> 或許可以一邊寫測試一邊寫module
+22:28 < d1t21> 要
+22:30 < d1t21> 要tag @tsaikd 才對 :P
+22:30 < tsaikd> XD
+22:31 < tsaikd> 看來應該弄個 golang workshop 才對...XD
+22:39 < matlinuxer2> 今天跟 kanru 請教 debian package 時，有提到 dependency 的問題
+22:41 < matlinuxer2> 就是 Build dependency 還是要一項一項寫，不能用合併打包的方式.
+22:41 < matlinuxer2> 傷腦筋~
+22:47 < matlinuxer2> yan: 剛剛發現 docker 的 IRC log 作得不錯
+22:47 < matlinuxer2> https://botbot.me/freenode/docker/
+22:48 < matlinuxer2> 好像是用 botbot.me 這個 service
+22:48 < kanru`> botbot.me 也是用 go
+22:48 < kanru`> 要申請
+22:48  * kanru` 之前申請都沒回應 XD
