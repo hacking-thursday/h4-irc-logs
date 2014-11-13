@@ -77,3 +77,5 @@
 18:21 < d1t21> 看來像是個別module各自測，test in docker way 好像太麻煩了(?)
 19:22 < tsaikd> d1t21: 是在說 sysd 嗎? golang 本身就有提供 unit test
 19:48  * matlinuxer2 剛到 H4
+19:54 < matlinuxer2> 今天人比較多~
+20:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
