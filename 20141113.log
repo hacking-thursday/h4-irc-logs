@@ -32,3 +32,18 @@
 16:51 < matlinuxer2> google DNS 有時候會出問題
 16:52 < matlinuxer2> 上次挫過一次，我後來都用 hinet 的 DNS 了
 16:52 < matlinuxer2> 其實 hinet 的 DNS 還蠻穩的...
+17:27 < sysd> [sysd] dieterplex opened pull request #32: Add arch linux dockerfile (devel...devel) http://git.io/nS3tLQ
+17:29 < d1t21> bot 會收到 github 的 event 是怎麼運作的？
+17:30 < matlinuxer2> d1t21: github.com 內建的功能~
+17:31 < d1t21> @matlinuxer22 webhook?
+17:31 < matlinuxer2> d1t21: yes
+17:32 < d1t21> @matlinuxer22 先前在gitlab也用過發email，是一樣的東西
+17:33 < sysd> [sysd] matlinuxer2 closed pull request #32: Add arch linux dockerfile (devel...devel) http://git.io/nS3tLQ
+17:34 < matlinuxer2> d1t21: cool, 現在的 code hosting 都作得很貼心
+17:34 < matlinuxer2> 回想以前 sourceforge.net 的時代
+17:34 < bcbcarl> 真方便，會自己通知
+17:35 < matlinuxer2> 那時候連開一個 project 都要人工審核 @@||| ( 等了2個星期，天啊...)
+17:36 < bcbcarl> 題外話，我有在 Slack 開了 hackingthursday 和 sysd
+17:37 < bcbcarl> 先把它註冊下來
+17:37 < matlinuxer2> ok
+17:37 < matlinuxer2> h4 @ slack 不知道是不是 yan 註下來的?
