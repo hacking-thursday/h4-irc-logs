@@ -1,3 +1,5 @@
 --- Log opened 四 11月 13 00:00:40 2014
 11:08  * yan__ 前往台北中
 11:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+15:00 < d1t21> @tsaikd webui selectlang icon 沒有顯示，像是angularjs只輸出小寫檔名
+15:05 < tsaikd> d1t21: Y...我有發現裡面有bug...主要是大小寫問題...XD
