@@ -1,1 +1,41 @@
 --- Log opened 五 11月 14 00:00:42 2014
+00:05 < bcbcarl> Slack 就是來解決這問題的
+00:05 < bcbcarl> logbot 我還沒研究過，有人可以分享一下嗎？
+00:06 < bcbcarl> 它要不要錢？可以紀錄多少？
+00:06 < matlinuxer2> logbot 好像是大家下載自己找 server 安裝
+00:07 < matlinuxer2> https://github.com/dannvix/Logbot
+00:07 < lcamel> heroku 有免費空間
+00:10 < bcbcarl> 原來是要自架
+00:10 < matlinuxer2> 我是覺得 botbot.me 蠻理想的
+00:10 < bcbcarl> logbot 竟然是 dannvix 開發的
+00:11 < matlinuxer2> 只是要通過審核, 好像不是很容易的樣子 XD
+00:11 < bcbcarl> 這種平台值得花時間研究
+00:11 < bcbcarl> 自架不是問題，很好解決
+00:11 < matlinuxer2> BTW, 我剛剛發現 github.com 也可以自行上傳 tarball 的樣子.
+00:12 < matlinuxer2> ex: https://github.com/ibus/ibus/releases
+00:12 < bcbcarl> 對啊可以自行上傳
+00:12 < bcbcarl> 原來你不曉得 XD
+00:12 < bcbcarl> 我的 DigitalOcean 想要重開，開成 Docker 或 Ubuntu
+00:12 < bcbcarl> 然後看掛我的 domain name 或 hackingthursday
+00:12 < bcbcarl> 大家在上面實驗吧
+00:13  * matlinuxer2 bcbcarl: 對呀，我不曉得，我以為只能用 github page 或是下 tag
+00:13 < bcbcarl> 所以很多人從 Google Codes 逃離
+00:13 < bcbcarl> 而且 Git 要搬家超簡單
+00:14 < bcbcarl> SVN 好像蠻辛苦的
+00:14  * matlinuxer2 淚....
+00:14 < matlinuxer2> 其實我還蠻喜歡 google code 的 issue tracker 的
+00:14 < bcbcarl> 看能不能開個 dev.hackingthursday.org 之類的
+00:14 < bcbcarl> 我機器開好再跟大家講
+00:16 < matlinuxer2> ok
+00:17 < matlinuxer2> 有 IP 再請 Fourdollars 幫忙設 DNS ^^
+00:17 < bcbcarl> 好
+00:17 < matlinuxer2> ( DNS 目前是由 4$ 贊助的 ^^, 4$++ )
+00:18 <@FourDollars> 明天再幫忙設定
+00:18 < matlinuxer2> FourDollars: 喔喔 好哇
+00:18 < bcbcarl> (Y)
+00:18  * FourDollars 已就寢 XD
+00:18 < matlinuxer2> FourDollars: 你還在喔 XD
+00:18 < kanru`> FourDollars++
+00:18 <@FourDollars> 躺在床上滑平板
+00:18 < bcbcarl> 「各位兄弟晚安」這樣嗎？XD
+00:18 < kanru`> 猴，已就寢還上 IRC
