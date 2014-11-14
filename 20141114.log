@@ -88,3 +88,4 @@
 15:00 < tsaikd> 那在 debian/missing-sources 建幾個空檔案來騙它如何?
 15:00 < sysd> [sysd] czchen opened pull request #37: Use travis-ci as CI server (devel...feature/ci) http://git.io/L-W7QQ
 15:46 < sysd> [sysd] matlinuxer2 closed pull request #37: Use travis-ci as CI server (devel...feature/ci) http://git.io/L-W7QQ
+22:02 < matlinuxer2> http://duartes.org/gustavo/blog/post/system-calls/
