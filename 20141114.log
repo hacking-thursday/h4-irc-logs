@@ -85,3 +85,5 @@
 14:46 < tsaikd> 只是 warning 的話可以不理他嗎？...XD
 14:47 <@czchen> 要找一下，我沒有包過有 minified JS 的 package
 14:47 < matlinuxer2> tsaikd: debian 的 package 都蠻嚴格的 XD
+15:00 < tsaikd> 那在 debian/missing-sources 建幾個空檔案來騙它如何?
+15:00 < sysd> [sysd] czchen opened pull request #37: Use travis-ci as CI server (devel...feature/ci) http://git.io/L-W7QQ
