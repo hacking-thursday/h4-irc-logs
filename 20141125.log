@@ -1,1 +1,6 @@
 --- Log opened 二 11月 25 00:00:58 2014
+09:45 < yan> matlinuxer2: 剛剛看到一個 API 的設計
+09:46 < yan> 有提到有些瀏覽器不支援 PUT、DELETE
+09:46 < matlinuxer21> Yes
+09:47 < yan> 所以會使用 POST 然後把 http method 代進去
+09:54 < matlinuxer2> yan: PUT跟DELETE 應該不太會用到
