@@ -1,0 +1,27 @@
+--- Log opened 二 11月 18 00:00:47 2014
+--- Log closed 二 11月 18 05:13:14 2014
+--- Log opened 二 11月 18 05:13:22 2014
+05:13 -!- Irssi: #h4: Total of 26 nicks [3 ops, 0 halfops, 0 voices, 23 normal]
+05:13 -!- Irssi: Join to #h4 was synced in 10 secs
+09:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+09:25 < ikariwing> @hychen nice
+15:33 < bcbcarl> @matlinuxer22 你可以教我用 "keychain" 嗎？我都設不成功。
+15:39 < matlinuxer2> bcbcarl: 啊, 我沒有用過 keychain 耶 @@|||
+15:39  * matlinuxer2 立馬來裝裝看~
+15:40 < bcbcarl> keychain 是 funtoo 計畫
+15:40 < bcbcarl> 神人應該都用這個
+15:40 < bcbcarl> ArchWiki 還有專門介紹
+15:41 < bcbcarl> 我公司的 key 設得很嚴，我每次 push 都要偷看密碼很煩
+15:41 < matlinuxer2> bcbcarl: 對了，你有空看要不要先申請一個 launchpad 跟 https://build.opensuse.org/ 的帳號，之後若要打包的話，會用到~
+15:41 < matlinuxer2> OK
+15:41 < bcbcarl> launchpad 我有，build.opensuse.org 好像也有，我確認一下
+15:41 < matlinuxer2> http://www.funtoo.org/Keychain
+15:48 < bcbcarl> build opensuse 帳號 bcbcarl
+15:49 < bcbcarl> 剛剛登成 email，所以都不行
+15:50 < bcbcarl> launchpad 帳號也是 bcbcarl
+15:53 < matlinuxer2> bcbcarl: GOOD!!
+15:53 < bcbcarl> 2006 年開的
+15:53 < bcbcarl> 8 年前
+15:53 < matlinuxer2> bcbcarl: 週四時可以跟你介紹一下怎麼簡單製作 ppa/rpm 套件上傳
+15:54 < bcbcarl> 好
+--- Log closed 三 11月 19 00:00:49 2014

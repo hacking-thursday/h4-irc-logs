@@ -1,0 +1,10 @@
+--- Log opened 一 11月 24 00:00:56 2014
+00:03 < bcbcarl> @matlinuxer22 確認一下編譯流程
+00:05 < bcbcarl> Manifest 是必須的嗎？
+00:18 < sysd> [sysd] bcbcarl opened pull request #42: Update build instruction (devel...update-build-instruction) http://git.io/Bi_KXQ
+--- Log closed 一 11月 24 04:05:07 2014
+--- Log opened 一 11月 24 04:05:16 2014
+04:05 -!- Irssi: #h4: Total of 22 nicks [2 ops, 0 halfops, 0 voices, 20 normal]
+04:05 -!- Irssi: Join to #h4 was synced in 11 secs
+14:21 < sysd> [sysd] matlinuxer2 closed pull request #42: Update build instruction (devel...update-build-instruction) http://git.io/Bi_KXQ
+--- Log closed 二 11月 25 00:00:58 2014

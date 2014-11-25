@@ -1,0 +1,5 @@
+--- Log opened 日 11月 23 00:00:55 2014
+21:45 < bcbcarl> @matlinuxer22 請問一下 configure 這隻裡面不是已經在 $ROOT 了嗎？為何要再進去一次？
+22:45 < sysd> [sysd] bcbcarl opened pull request #40: Apply strict mode to `configure` script (devel...apply-strict-mode) http://git.io/kXOSmw
+23:41 < sysd> [sysd] matlinuxer2 closed pull request #40: Apply strict mode to `configure` script (devel...apply-strict-mode) http://git.io/kXOSmw
+--- Log closed 一 11月 24 00:00:56 2014

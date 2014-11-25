@@ -1,0 +1,54 @@
+--- Log opened 四 11月 20 00:00:50 2014
+08:27 < yan> matlinuxer2, 透過 Windows WMI? http://msdn.microsoft.com/en-us/magazine/cc302338.aspx
+10:09 < matlinuxer2> http://yangacer.blogspot.tw/2014/05/sqlite_6.html?m=1
+10:29 < matlinuxer2> yan: 希望能跳過 WMI, 直接跟底層拿
+10:29 < tsaikd> matlinuxer2: pong
+10:29 < matlinuxer2> tsaikd: 早安^^
+10:30 < matlinuxer2> 分享一下前幾天的研究心得
+10:31 < matlinuxer2> https://www.irccloud.com/pastebin/3sXEZxko
+10:31 < matlinuxer2> 上面檔案用 gcc -I/usr/include main.c 編譯
+10:32 < matlinuxer2> 前幾天要處理防火牆, 要寫 script 處理 iptables
+10:32 < matlinuxer2> 但覺得 iptables 的 output 很難 parsing
+10:32 < matlinuxer2> => 想說，若可以加進 sysd 裡，就很好處理了
+10:34 < matlinuxer2> 用 strace 觀察了一下，iptables 的指令不是從 /proc, /sys/ 取得 iptables rules 資料，覺得很奇怪
+10:37 < matlinuxer2> 研究了一下，後來發現原來是用 sock 的方式跟 kernel 拿資料的.
+10:37 < kanru> 應該是直接用 kernel api..
+10:37 < matlinuxer2> kanru: yes!!
+10:38 < matlinuxer2> 簡要來說，是 kernel 的 iptable module 自訂了 socket handler function ，透過 nf_register_sockopt 註冊自訂的指令集
+10:39 < matlinuxer2> 開 socket ，然後呼叫那份 iptables 的指令集，就可以拿到 iptables 的資料了~
+10:41 < matlinuxer2> ref: google://+nf_register_sockopt+IPT_SO_GET_INFO
+10:42 < matlinuxer2> 理論上，用 golang (syscall 模組)開 socket 直接對 linux kernel 呼叫那份指令集，也可以取得 iptables 資料
+10:44 < kanru> coool
+10:45 < matlinuxer2> 但發現 golang 的 syscall 的 Getsockopt() 的相關函式不完整，所以....暫時先打消念頭 @@|||
+10:45 < matlinuxer2> ( 可能等未來有機會再研究 golang 有沒有  syscall 的 raw 模式~ )
+10:52 < tsaikd> golang 直接 call c lib 會不會比較快?
+10:54 < matlinuxer2> tsaikd: 有 python-iptables 就是那麼作的 ^^
+10:56 < matlinuxer2> tsaikd: 我初步研究過 python-iptables 跟 iptables c lib 的實作. 其實最多部份是在處理 iptables 的資料結構定義
+10:56 < matlinuxer2> struct / define / enum / link lists /... 之類的
+10:57 < matlinuxer2> tsaikd: python-iptables 雖然用了 iptables c lib, 但還是要再 wrapper 一遍
+10:59 < matlinuxer2> tsaikd: 我個人是覺得，使用 iptables c lib ，好像也沒有比較輕鬆
+11:00 < matlinuxer2> tsaikd: 另外用 iptables c lib, 也會多一項 dependency
+11:01 < matlinuxer2> tsaikd: 不過 iptables c lib 有個好處，就是它跟 iptables kernel module 好像是同一組人在開發的
+11:02 < matlinuxer2> tsaikd: 所以一致性比較高
+11:08 < tsaikd> matlinuxer2: 我是怕直接對 kernel 操作的話, 平台相依性的問題很難解決, 像是 kernel 換版本之類的可能就會 GG
+11:26 < matlinuxer2> tsaikd: yes
+11:27 < matlinuxer2> tsaikd: 因為困難重重，所以暫時把這個 idea 放冰箱了 XD
+11:39 < matlinuxer2> http://www.slideshare.net/BenLue/coimotion-32567567
+11:39 < matlinuxer2> tsaikd: 這一份?
+11:45 < matlinuxer2> http://www.slideshare.net/BenLue/hack-go
+11:46 < tsaikd> matlinuxer2: hack-go...ya
+11:49 < matlinuxer2> tsaikd: 看完了，寫得很棒!! ^^
+12:13 < matlinuxer2> tsaikd: 對了，關於 SEF 跟 RESTful API 的 url pattern ，我補充一個心得~
+12:14 < matlinuxer2> tsaikd: SEF 對於 method 的定義比較彈性，不過 RESTful 用 GET/POST/PUT/DELETE 是有用意的 ^^
+12:14 < matlinuxer2> tsaikd: 主要用於 http server 的 load banlance /dispatch
+12:15 < matlinuxer2> tsaikd: 一般來說，正常資料網站的讀寫比例大約是 9:1
+12:15 < matlinuxer2> tsaikd: 所以高流量的網站通常會作讀寫分離
+12:16 < matlinuxer2> tsaikd: 如果是 SEF 的狀況，需要去 parse method 的 pattern 區分
+12:17 < matlinuxer2> tsaikd: 但用 RESTful 的 GET/POST/... 的話，在 http server 端就可以作的
+12:19 < matlinuxer2> tsaikd: 也就是說, 作 server load balance 的人，不用問 developer 細節，光用 http header ( GET/POST/... ) 跟 ret code ( 200/301/404/... ) , 就可以直接作
+12:20 < matlinuxer2> tsaikd: 以上是我側面了解 RESTful 的分享^^
+12:21 < matlinuxer2> tsaikd: BTW, sysd 的 API 我想應該會採用 SEF 的方式 ^^
+16:19 < matlinuxer2> http://nuomi-studio.com/Golang/%E7%94%A8-Golang-%E9%80%9A%E8%BF%87-netlink-%E7%9B%91%E5%90%AC-udev-%E4%BA%8B%E4%BB%B6/
+18:27 < matlinuxer2> http://www.ibm.com/developerworks/aix/library/au-tcpsystemcalls/
+21:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+--- Log closed 五 11月 21 00:00:52 2014

@@ -1,0 +1,14 @@
+--- Log opened 三 11月 19 00:00:49 2014
+14:53 < matlinuxer2> 想請教一下， linux 上有 /proc/, /sys/ 可取得系統資訊, 不知道 osx / windows 上，有沒有類似的方式可以取得系統資訊呢?
+14:54  * matlinuxer2 或是有 system API 相關資料之類的...?
+15:46 < xinbe> systeminfo?
+16:13 < matlinuxer2> xinbe: 是這個? http://www.hackintoshosx.com/files/file/2243-system-info/
+17:14 < xinbe> cmd>systeminfo /FO CSV
+17:14 < xinbe> windows 內建的資訊應該就夠多了吧？要像 dmesg 那樣的話，好像得另外找工具了
+17:26 < xinbe> systeminfo /FO CSV、msinfo32 /report D:\report.txt、DxDiag /x D:\DxDiag.txt
+17:26 < xinbe> 應該沒了
+17:27 < xinbe> 這些應該是目前內建能做到的？還有嗎？
+17:27 < matlinuxer2> xinbe: 了解，謝謝你提供的資料^^
+18:20 < matlinuxer2> tsaikd: ping
+23:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+--- Log closed 四 11月 20 00:00:50 2014
