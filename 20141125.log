@@ -4,3 +4,9 @@
 09:46 < matlinuxer21> Yes
 09:47 < yan> 所以會使用 POST 然後把 http method 代進去
 09:54 < matlinuxer2> yan: PUT跟DELETE 應該不太會用到
+12:27 < hychen> 現在在做什麼?
+12:27 < matlinuxer2> hychen: ?
+12:30 < matlinuxer2> hychen: 你是說 PUT / DELETE 嗎?
+12:32 < hychen> sysd?
+12:32 < matlinuxer2> yes
+12:34 < sysd> [sysd] matlinuxer2 opened pull request #43: 補上 system service 檔案 (devel...add-systemd-service) http://git.io/0uZM9A
