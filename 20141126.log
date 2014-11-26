@@ -2,3 +2,10 @@
 08:18 < sysd> [sysd] bcbcarl closed pull request #43: 補上 system service 檔案 (devel...add-systemd-service) http://git.io/0uZM9A
 11:00 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
 13:21 < sysd> [sysd] matlinuxer2 opened pull request #44: Patch for ppa (devel...patch_for_ppa) http://git.io/z01b2w
+14:12 < sysd> [sysd] matlinuxer2 opened pull request #45: Api refactor (devel...api_refactor) http://git.io/QSFcvA
+14:15 < matlinuxer2> 幫 sysd 新增了讀取 /proc/net/{unix,tcp,tcp6,udp,udp6} 的資料
+14:16  * matlinuxer2 之後再抓 /proc/<pid>/fd/* 的資料，兩相查表可以作出 lsof 的功能
+14:28 < hychen> 什麼樣的需求要sysd?
+14:30 < matlinuxer2> hychen: 簡單說，只是把底層的資料開放出來~
+14:31 < matlinuxer2> hychen: 也沒什麼特殊需求
+14:31 < matlinuxer2> hychen: for fun :p
