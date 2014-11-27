@@ -6,3 +6,7 @@
 19:04 < yan> matlinuxer2: 想請問一下 mat 的研究成果
 19:04 < yan> 我剛看完不過有點搞混
 19:04 < yan> 有了 carbon 還需要 statsd 嗎?
+19:10 < matlinuxer2> yan: 我沒用過 statsd
+19:11 < matlinuxer2> 可以用netcat直接打tcp給它
+19:21 < yan> 嗯嗯，打到 carbon 的 2003 port
+19:24 < yan> 3Q，我來建立 dashboard
