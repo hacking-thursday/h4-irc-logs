@@ -29,3 +29,4 @@
 17:22 < tsaikd1> 直接在 index.js 裡面加一行 windows.sysd = sysd;
 17:23 < tsaikd1> 然後就可以在 debug 裡面用 sysd.xxx 了
 17:33 < matlinuxer2> tsaikd1: 沒成功，晚點跟你請教~
+--- Log closed 六 11月 29 00:00:03 2014
