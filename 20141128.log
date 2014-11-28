@@ -17,3 +17,15 @@
 16:42 < tsaikd1> matlinuxer2: 要連到 index.src.html, 不是 index.html
 16:43 < matlinuxer2> matlinuxer2: 有，我知道，但我還抓不到程式的進入點 >,<
 17:08 < tsaikd1> matlinuxer2: sysd daemon 開起來, 直接用網頁連, 你可以隨便找個地方加 console.log("XXX") 之類的去確認執行期間的變數
+17:18 < matlinuxer2> tsaikd1: 有，我知道，有試過
+17:18 < matlinuxer2> tsaikd1: sysd.getProcGraph() 這個在那會會被 call 到?
+17:19 < tsaikd1> matlinuxer2: 目前都不會被 call 到
+17:20 < matlinuxer2> tsaikd1: @@
+17:20 < matlinuxer2> tsaikd1: 難怪...都沒有動靜 XD
+17:20 < matlinuxer2> tsaikd1: 那我怎麼測試 getProcGraph() 這個 func?
+17:21 < tsaikd1> 手動call吧
+17:21 < tsaikd1> function 還沒寫好所以在 UI 上不應該被觸發
+17:22 < matlinuxer2> how? app.fatory('sysd').getProcGraph()?
+17:22 < tsaikd1> 直接在 index.js 裡面加一行 windows.sysd = sysd;
+17:23 < tsaikd1> 然後就可以在 debug 裡面用 sysd.xxx 了
+17:33 < matlinuxer2> tsaikd1: 沒成功，晚點跟你請教~
