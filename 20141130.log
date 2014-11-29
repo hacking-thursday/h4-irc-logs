@@ -9,3 +9,7 @@
 00:10 < tsaikd> inode 大小寫的問題要不要統一? 剛發現我顯示那邊會出事...XD
 00:10 < matlinuxer2> 有，我想說之後一律轉小寫
 00:11 < matlinuxer2> 另外 tcp/tcp6 也有 rem_address  跟 remote_address 的問題
+--- Log closed 日 11月 30 05:26:57 2014
+--- Log opened 日 11月 30 05:27:06 2014
+05:27 -!- Irssi: #h4: Total of 23 nicks [2 ops, 0 halfops, 0 voices, 21 normal]
+05:27 -!- Irssi: Join to #h4 was synced in 10 secs
