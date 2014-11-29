@@ -1,1 +1,3 @@
 --- Log opened 六 11月 29 00:00:03 2014
+15:33 < matlinuxer2> tsaikd: 對了，提醒一下, socket 資料中, unix 的 Inode 開頭是大寫， tcp/udp 的 inode 開頭是小寫
+15:34 < matlinuxer2> tsaikd1: 這個小細節讓我debug很久 @.@|||
