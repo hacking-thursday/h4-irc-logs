@@ -6,3 +6,6 @@
 00:07 < matlinuxer2> 我待會再 parse 多一點 process 資料給 /process/resource API 用， ^^
 00:07 < tsaikd> m...早點睡ㄟ...健康比較重要...XD
 00:08 < matlinuxer2> XD
+00:10 < tsaikd> inode 大小寫的問題要不要統一? 剛發現我顯示那邊會出事...XD
+00:10 < matlinuxer2> 有，我想說之後一律轉小寫
+00:11 < matlinuxer2> 另外 tcp/tcp6 也有 rem_address  跟 remote_address 的問題
