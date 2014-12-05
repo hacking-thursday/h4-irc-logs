@@ -1,0 +1,9 @@
+--- Log opened 二 12月 02 00:00:08 2014
+10:14 < matlinuxer2> 早安~
+13:58 < sysd> [sysd] a0726h77 opened pull request #47: 新增 changelog 檔案 (devel...changelog) http://git.io/VWYhdQ
+14:02 < yan> sysd 上傳新檔案後 Travis CI 馬上 build 完還會寄信，真是有點驚恐
+14:12 < matlinuxer2> yan: 哈, 這樣很不錯啊
+14:13 < matlinuxer2> 感謝 czchen 幫忙設定的 travis ci
+14:16 < yan> (y)
+22:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+--- Log closed 三 12月 03 00:00:09 2014

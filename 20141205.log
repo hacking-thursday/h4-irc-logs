@@ -1,0 +1,12 @@
+--- Log opened 五 12月 05 00:00:12 2014
+07:40 < h4bot> [sync.in] page "h4" edited http://sync.in/h4
+07:49 < yan> DreamerC: (y)
+07:49 < yan> http://qiita.com/advent-calendar/2014
+07:49 < yan> 耶誕倒數日曆
+09:27 < bcbcarl> 為了避免爆肝，昨晚沒 release，現在要準備 release 了
+10:04 < carl_tw> 目前進行到步驟 5，晚點打包
+11:20 < sysd> [sysd] matlinuxer2 opened pull request #49: 檢查是否已安裝該 VCS 工具 (devel...fix-41-vcs-check) http://git.io/3kmkgw
+11:29 < sysd> [sysd] matlinuxer2 opened pull request #50: Change default PORT from :8080 to :8 (devel...chg_port_8) http://git.io/bIatdA
+11:43 < sysd> [sysd] a0726h77 closed pull request #50: Change default PORT from :8080 to :8 (devel...chg_port_8) http://git.io/bIatdA
+11:51 < sysd> [sysd] a0726h77 opened pull request #51: Update CHANGELOG.md (devel...changlog) http://git.io/4wmhrg
+11:52 < sysd> [sysd] a0726h77 closed pull request #49: 檢查是否已安裝該 VCS 工具 (devel...fix-41-vcs-check) http://git.io/3kmkgw
