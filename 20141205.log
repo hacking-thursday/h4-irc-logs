@@ -10,3 +10,4 @@
 11:43 < sysd> [sysd] a0726h77 closed pull request #50: Change default PORT from :8080 to :8 (devel...chg_port_8) http://git.io/bIatdA
 11:51 < sysd> [sysd] a0726h77 opened pull request #51: Update CHANGELOG.md (devel...changlog) http://git.io/4wmhrg
 11:52 < sysd> [sysd] a0726h77 closed pull request #49: 檢查是否已安裝該 VCS 工具 (devel...fix-41-vcs-check) http://git.io/3kmkgw
+--- Log closed 六 12月 06 00:00:14 2014
