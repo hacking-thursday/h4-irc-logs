@@ -1,1 +1,13 @@
 --- Log opened 一 12月 08 00:00:17 2014
+09:28 < bcbcarl> sysd release 流程：https://hackingthursday.hackpad.com/Release-Guide-0B4Ck04Ndqj
+09:28 < bcbcarl> 照著 deb 流程走，目前失敗了
+09:29 < bcbcarl> 不清楚是否第一次失敗會有影響
+09:29 < bcbcarl> 有人可以完全照著 Hackpad 流程幫忙確認嗎？
+09:29 < matlinuxer2> bcbcarl: 匯入之後，試一下 gpg --refresh-keys
+09:32 < bcbcarl> 一樣錯誤
+09:32 < bcbcarl> E: sysd changes: bad-distribution-in-changes-file utopic
+09:32 < bcbcarl> W: sysd source: changelog-should-mention-nmu
+09:32 < bcbcarl> W: sysd source: source-nmu-has-incorrect-version-number 0.6.2-0utopic1
+09:32 < bcbcarl> W: sysd source: newer-standards-version 3.9.5 (current is 3.9.4)
+09:32 < bcbcarl> 這應該是之前也出現的錯誤，只是我現在看到了
+09:33 < matlinuxer2> bcbcarl: 我看一下
