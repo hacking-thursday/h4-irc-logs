@@ -11,3 +11,10 @@
 09:32 < bcbcarl> W: sysd source: newer-standards-version 3.9.5 (current is 3.9.4)
 09:32 < bcbcarl> 這應該是之前也出現的錯誤，只是我現在看到了
 09:33 < matlinuxer2> bcbcarl: 我看一下
+09:33 < matlinuxer2> bcbcarl: 還有 fatal error 嗎?
+09:42 < AceLan> @@"
+09:42 < matlinuxer2> bcbcarl: 如果沒有 fatal error  的話，email 應該會收到 PPA 的通知.
+09:43 < matlinuxer2> AceLan: 早啊~
+10:00 < bcbcarl> 一看就知道沒過
+10:00 < bcbcarl> 沒有通知
+10:02  * matlinuxer2 bcbcarl: 我正在 reproduce
