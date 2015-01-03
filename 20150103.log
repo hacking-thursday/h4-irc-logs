@@ -3,3 +3,4 @@
 20:51 < yan> phpsysinfo 也有 json 的 api
 22:00 < matlinuxer2> yan: yes
 22:02  * matlinuxer2 yan: 如果只著眼 json ，的確用 phpsysinfo 就夠了
+23:18 < matlinuxer2> yan: https://raw.githubusercontent.com/phpsysinfo/phpsysinfo/master/includes/os/class.Linux.inc.php
