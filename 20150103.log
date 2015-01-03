@@ -1,3 +1,5 @@
 --- Log opened 六  1月 03 00:00:55 2015
 20:51 < yan> matlinuxer2: http://phpsysinfo.sourceforge.net/phpsysinfo/xml.php?plugin=complete&json
 20:51 < yan> phpsysinfo 也有 json 的 api
+22:00 < matlinuxer2> yan: yes
+22:02  * matlinuxer2 yan: 如果只著眼 json ，的確用 phpsysinfo 就夠了
